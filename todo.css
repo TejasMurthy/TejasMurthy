@@ -1,0 +1,119 @@
+/* Common */
+
+body {
+    background-color: white;
+    font-family: sans-serif;
+    color: #999;
+  }
+  
+  .pull-right {
+    justify-content: flex-end;
+    text-align: right;
+  }
+  
+  input[type="button"] {
+    text-transform: uppercase;
+    font-size: 0.7em;
+  }
+  
+  .hidden {
+    visibility: hidden;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  
+  /*
+  ToDo Container
+  */
+  
+  .todo-container {
+    border: 1em solid #EEE;
+    width: 400px;
+  }
+  
+  
+  /*
+  ToDo Header
+  */
+  
+  .todo-container header {
+    border-bottom: 1px solid #EEE;
+  }
+  
+  .input {
+    display: flex;
+    padding: 1em 1em 0;
+  }
+  
+  .actions {
+    display: block;
+  }
+  
+  .input:last-child {
+    padding-bottom: 1em;
+  }
+  
+  .input span {
+    flex: 1;
+    padding: 0.4em;
+    min-width: 4em;
+  }
+  
+  .input input,
+  .input textarea {
+    flex: 6;
+    border: 1px solid #BBB;
+    padding: 0.4em;
+  }
+  
+  .input textarea {
+    min-height: 4em;
+  }
+  
+  .input .action {
+    color: #FFF;
+    border: none;
+    background-color: #4371F0;
+    padding: 0.4em 2em;
+  }
+  
+  
+  /*
+  ToDo Items
+  */
+  
+  .todo {
+    margin: 1em 1em 0;
+    border: 1px solid #BBB;
+  }
+  
+  .todo:last-child {
+    margin-bottom: 1em;
+  }
+  
+  .todo .content {
+    padding: 1em;
+  }
+  
+  .todo .title {
+    color: #666;
+    padding-bottom: 0.5em;
+  }
+  
+  .todo .body {
+    font-size: 0.7em;
+  }
+  
+  .todo .options {
+    border-top: 1px solid #BBB;
+    padding: 0.2em 0.5em;
+  }
+  
+  .todo .options .delete {
+    color: #D11D1D;
+    background-color: #FFF;
+    border: none;
+  }
+  
